@@ -28,7 +28,7 @@ except OSError:
     print('os error')
     sys.exit(0)
 
-pages = int((maxImages-1)/60)+1 #한 페이지당 표시되는 이미지 수(100)을 참고하여 확인할 페이지 수 계산
+pages = int((maxImages-1)/100)+1 #한 페이지당 표시되는 이미지 수(100)을 참고하여 확인할 페이지 수 계산
 imgCount = 0  # 추출 시도 이미지 수
 success = 0  # 추출 성공 이미지 수
 finish = False  # 이미지에 모두 접근했는지 여부
