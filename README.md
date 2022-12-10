@@ -10,6 +10,7 @@
 ## Requirements
 * Python 3.7+
 * Works on Linux, Windows, maxOS, BSD
+* chromedriver.exe (which version matches your chrome browser)
 
 ## Usage
 1. construct python virtual environments :
