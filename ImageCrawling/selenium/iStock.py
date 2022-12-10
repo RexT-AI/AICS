@@ -58,7 +58,7 @@ for i in range(1, int(pages) + 1):
 
     picture = soup.select('picture > source')  # 요소 선택
 
-    # 5번 제목에서 설명함
+
     for img in picture:
         srcset = ""
 
